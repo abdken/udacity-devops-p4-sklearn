@@ -1,0 +1,17 @@
+(.devops) cool@TRUFLAEGY02:/media/cool/DevOps/trufla/gitwork/github/DEVOPS-NANO/p4/DevOps_Microservices/project-ml-microservice-kubernetes$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                                    READY   STATUS    RESTARTS   AGE
+default       udacity-devops-p4-sklearn               1/1     Running   0          9m
+kube-system   coredns-c4cffd6dc-jwct7                 1/1     Running   3          22h
+kube-system   etcd-minikube                           1/1     Running   0          56m
+kube-system   kube-addon-manager-minikube             1/1     Running   3          22h
+kube-system   kube-apiserver-minikube                 1/1     Running   0          56m
+kube-system   kube-controller-manager-minikube        1/1     Running   0          56m
+kube-system   kube-dns-86f4d74b45-8mj9g               3/3     Running   12         22h
+kube-system   kube-proxy-wvkhf                        1/1     Running   0          55m
+kube-system   kube-scheduler-minikube                 1/1     Running   2          9h
+kube-system   kubernetes-dashboard-6f4cfc5d87-kl9lc   1/1     Running   6          22h
+kube-system   storage-provisioner                     1/1     Running   12         22h
+(.devops) cool@TRUFLAEGY02:/media/cool/DevOps/trufla/gitwork/github/DEVOPS-NANO/p4/DevOps_Microservices/project-ml-microservice-kubernetes$ kubectl port-forward udacity-devops-p4-sklearn 8080:80
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
