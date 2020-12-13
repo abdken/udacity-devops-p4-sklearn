@@ -1,4 +1,4 @@
-!https://app.circleci.com/pipelines/github/abdken/udacity-devops-p4-sklearn.svg?style=svg!:https://app.circleci.com/pipelines/github/abdken/udacity-devops-p4-sklearn
+[![<ORG_NAME>](https://circleci.com/gh/abdken/udacity-devops-p4-sklearn.svg?style=svg)](https://circleci.com/gh/abdken/udacity-devops-p4-sklearn)
 
 
 
