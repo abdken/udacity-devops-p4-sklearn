@@ -1,5 +1,4 @@
-https://app.circleci.com/pipelines/github/abdken/udacity-devops-p4-sklearn?style=shield
-https://app.circleci.com/pipelines/github/abdken/udacity-devops-p4-sklearn
+[![CircleCI](https://https://app.circleci.com/pipelines/github/abdken/udacity-devops-p4-sklearn?style=svg)](https://https://app.circleci.com/pipelines/github/abdken/udacity-devops-p4-sklearn)
 
 
 ## Project Overview
